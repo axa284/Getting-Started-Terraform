@@ -12,8 +12,8 @@ terraform plan -var=billing_code="ACCT8675309" -var=project="web-app" -var=aws_a
 
 # And we can store our sensitive data in environment variables like so
 # For Linux and MacOS
-export TF_VAR_aws_access_key=YOUR_ACCESS_KEY
-export TF_VAR_aws_secret_key=YOUR_SECRET_KEY
+export TF_VAR_aws_access_key=AKIAWJGHSTSRFAJJGNF7
+export TF_VAR_aws_secret_key=cW5BKERi4DCMOXU0u+vzzow2DHRs9kpfiTY0LJFT
 
 # For PowerShell
 $env:TF_VAR_aws_access_key="YOUR_ACCESS_KEY"
